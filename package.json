@@ -1,0 +1,32 @@
+{
+  "name": "ironicase",
+  "version": "1.0.0",
+  "description": "Turning strings into ironic ones.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "keywords": [
+    "ironic",
+    "strings"
+  ],
+  "author": "Simon Valenta",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "add": "^2.0.6",
+    "jest": "^29.7.0",
+    "or": "^0.2.0",
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.2",
+    "typescript": "^5.5.4",
+    "yarn": "^1.22.22"
+  }
+}
